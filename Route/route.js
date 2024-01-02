@@ -1,3 +1,14 @@
+//***************************************** */
+//CODE HEADER 
+//CODE DATE: 26th Dec'2023
+//DEVELOPER NAME: RAHUL KUMAR
+//PURPOSE: APIs to support the frontend. This file containd ADD, DELETE, UPDATE, LOGIN, LIST BY ID, LIST API routes   
+//GIT REPO NAME: Tactical_Edge_AI_API
+//COMMITTED ON:30/Dec/2023
+//TESTED ON:26/dec/2023
+//**************************************** */
+
+
 const exp = require('express');
 const {checkTcken}=require('../services/auth.middleware');
 const userController=require('../Controller/auth_controller')
